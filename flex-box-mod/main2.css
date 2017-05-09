@@ -1,0 +1,19 @@
+* {
+	margin : 0px;
+
+	padding : 0px ;
+}
+
+h1 {
+	font:20px bold Tahoma;
+}
+
+h2 {
+	font:14px bold Tahoma;
+}
+
+header , section , footer, article , nav ,aside , hgroup {
+	display: block;
+}
+
+body
