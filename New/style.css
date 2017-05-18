@@ -1,0 +1,54 @@
+#mommy {
+	border: 2px solid black;
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+	width: 1000px;
+	-webkit-box-pack:center; /*---end star other values---*/
+	height: 300px;
+	-webkit-box-align:stretch;
+
+}
+div {
+	text-align: center;
+}
+
+#kid1 {
+	background: green;
+	border: 2px solid red;
+	padding: 20px;
+	margin : 10px;
+	/*height: 100px;*/
+	-webkit-box-ordinal-group:3;
+	-webkit-box-flex:2;	}
+
+#kid2 {
+	background: red;
+	border: 2px solid black;
+	padding: 20px;
+	margin : 10px;
+	/*height: 100px;*/
+	-webkit-box-ordinal-group:1;
+	-webkit-box-flex:1;
+}
+#kid3 {
+	background: blue;
+	border: 2px solid red;
+	padding: 20px;
+	margin : 10px;
+	-webkit-box-flex:1;
+	-webkit-box-ordinal-group:4;
+	/*	height: 100px;*/
+
+}
+#kid4 {
+	background: yellow;
+	border: 2px solid red;
+	padding: 20px;
+	margin : 10px;
+	-webkit-box-flex:1;
+	-webkit-box-ordinal-group:2;
+		/*height: 100px;*/
+
+
+}
+

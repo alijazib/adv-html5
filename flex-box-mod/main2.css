@@ -16,4 +16,76 @@ header , section , footer, article , nav ,aside , hgroup {
 	display: block;
 }
 
-body
+body {
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+}
+
+#big_wrapper {
+	max-width: 1000px;
+	margin: 20px 0px;
+	display: -webkit-box;
+	-webkit-box-orient : vertical;
+	-webkit-box-flex :1;
+}
+
+#top_header {
+	background :yellow;
+	border: 3px solid black;
+	padding:20px;
+}
+
+#top_menu {
+	border: solid red;
+	background: blue;
+	color: white;
+}
+
+#top_menu a{
+	color: white;
+	text-decoration: none;
+}
+
+#top_menu li {
+	display: inline;
+	list-style-type: none;
+	padding: 5px;
+	font: bold 14px Tahoma; 
+}
+
+#new_div {
+	display: -webkit-box;
+	
+	-webkit-box-orient:horizontal;
+
+}
+
+#main_section {
+	-webkit-box-flex:1;
+	border: 2px solid black;
+	margin: 20px 20px 20px 0;
+}
+#news {
+	width: 220px;
+	padding: 40px;
+	margin: 20px 0;
+	height: auto;
+	background-color: #99d6ff;
+	border: 2px solid black;	
+}
+
+article {
+	border : 1px solid red;
+	padding: 20px;
+	margin: 20px 20px;
+	background: #ffb3b3;
+}
+
+article>footer {
+	text-align: right;
+}
+
+footer {
+	text-align: center;
+}
